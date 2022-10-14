@@ -8,11 +8,16 @@
 4. [GitCLI](https://git-scm.com/downloads)
 
 Create a new Environment 
-'''
+```
 conda create -p venv python==3.8 -y
-'''
+```
 
 Activate the environment
-'''
+```
 conda activate venv
-'''
+```
+
+Run requirements.txt
+```
+pip install -r requirements.txt
+```
